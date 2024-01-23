@@ -26,7 +26,6 @@ a:hover {
   transition: all ease-in-out 0.5s;
   z-index: 9997;
   transition: all 0.5s;
-  padding: 0 15px;
   background: #040b14;
   overflow-y: auto;
 }
@@ -39,25 +38,23 @@ a:hover {
 }
 
 #header .profile .profile-img {
-  margin: 0 auto 15px auto;
+  margin: auto;
   display: block;
-  width: 150px;
+  width: 60%;
 }
 
 #header .profile h1 {
-  font-size: 24px;
+  font-size: 2rem;
   margin: 0;
   padding: 0;
-  font-weight: 600;
   -moz-text-align-last: center;
   text-align-last: center;
 }
 
 #header .profile h2 {
-  font-size: 14px;
+  font-size: 1.2rem;
   margin: 0;
   padding: 0;
-  font-weight: 600;
   -moz-text-align-last: center;
   text-align-last: center;
 }
@@ -75,20 +72,20 @@ a:hover {
 }
 
 #header .profile .social-links a {
-  font-size: 18px;
+  font-size: 1.3rem;
   background: #212431;
   color: #fff;
   margin-right: 4px;
   border-radius: 50%;
-  width: 36px;
-  height: 36px;
+  width: 50px;
+  height: 50px;
   transition: 0.3s;
 }
 
 #header .profile .social-links a img {
   filter: brightness(0) invert(1);
-  width: 20px;
-  height: 20px;
+  width: 1.3rem;
+  height: 1.3rem;
 }
 
 #header .profile .social-links a:hover {
