@@ -22,7 +22,7 @@ a:hover {
   top: 0;
   left: 0;
   bottom: 0;
-  width: 300px;
+  width: 30vw;
   transition: all ease-in-out 0.5s;
   z-index: 9997;
   transition: all 0.5s;
@@ -98,7 +98,7 @@ a:hover {
 }
 
 #main {
-  margin-left: 300px;
+  margin-left: 30vw;
 }
 
 #main p {
