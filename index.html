@@ -1,25 +1,86 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <meta name="description" content="Marcelo HNQ Portfolio.">
-    <meta name="author" content="Marcelo Hnq">
-    <meta name="robots" content="index, follow">
-    <meta http-equiv="content-language" content="pt-br">
-    <meta name="theme-color" content="#2D538B">
-    <meta name="apple-mobile-web-app-status-bar-style" content="#2D538B">
-    <meta name="msapplication-navbutton-color" content="#2D538B">
+    <title>Marcelo - Software Developer</title>
+    <meta content="Developer Marcelo's contacts and projects" name="description">
+    <meta content="Software, Developer, C#, DotNet, Git, CI, CD, Back-End, Front-End" name="keywords">
 
-    <title>Marcelo HNQ</title>
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Vue -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+    <!-- Custom -->
+    <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
-    <h1>My Projects</h1>
-    <ul>
-        <li>Space Travel - Animation | <a href="">Preview</a> | <a href="">Repository</a> </li>
-    </ul>
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="centerhv">
+      <div class="profile">
+        <img src="assets/img/marcelo.jpg" alt="" class="profile-img img-fluid rounded-circle">
+        <h1 class="text-light"><a href="/index.html">Marcelo Lima</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://github.com/marcelohnq" class="centerhv"><i class="bi bi-github"></i></a>
+          <a href="https://www.linkedin.com/in/marcelohplima/" class="centerhv"><i class="bi bi-linkedin"></i></a>
+          <a href="https://leetcode.com/marcelohnq/" class="centerhv"><img src="assets/img/leetcode.svg"/></a>
+        </div>
+        <h2 class="mt-3 text-light">
+            <a href="mailto:marcelohnqpl@gmail.com"><i class="bi bi-mailbox-flag"></i> marcelohnqpl@gmail.com</a>
+        </h2>
+      </div>
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-title">
+          <h2>About()</h2>
+        </div>
+        <div class="section-content">
+            <p>I'm Marcelo! I have over 4 years of experience professionally solving problems, working to develop desktop apps, web apps, and APIs, and using GitLab and Jenkins for CI/CD on Linux.</p>
+            <br/>
+            <p>I've had the privilege of working on a wide range of projects, from renovating extensive legacy codebases to developing cutting-edge software solutions.</p>
+            <br/>
+            <p>I hold a Master's degree in Computer Science, specializing in Software Engineering, from the Federal University of Mato Grosso do Sul.</p>
+        </div>
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Projects Section ======= -->
+
+    <section id="projects" class="projects">
+      <div class="container">
+        <div class="section-title">
+          <h2>Projects()</h2>
+        </div>
+
+        <div class="section-content">
+            <div id="app" class="flex-cards">
+            </div>
+        </div>
+      </div>
+    </section><!-- End Projects Section -->
+
+  </main><!-- End #main -->
+
+  <script src="assets/js/main.js"></script>
 </body>
+
 </html>

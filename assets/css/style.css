@@ -1,0 +1,203 @@
+body {
+  font-family: 'Cascadia Code', sans-serif;
+  color: #272829;
+  background-color: #efefef;
+}
+
+a {
+  color: #149ddd;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #37b3ed;
+  text-decoration: none;
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  transition: all ease-in-out 0.5s;
+  z-index: 9997;
+  transition: all 0.5s;
+  padding: 0 15px;
+  background: #040b14;
+  overflow-y: auto;
+}
+
+#header .centerhv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#header .profile .profile-img {
+  margin: 0 auto 15px auto;
+  display: block;
+  width: 150px;
+}
+
+#header .profile h1 {
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  -moz-text-align-last: center;
+  text-align-last: center;
+}
+
+#header .profile h2 {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  -moz-text-align-last: center;
+  text-align-last: center;
+}
+
+#header .profile h1 a,
+#header .profile h2 a,
+#header .profile h1 a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+#header .profile .social-links {
+  display: flex;
+  justify-content: center;
+}
+
+#header .profile .social-links a {
+  font-size: 18px;
+  background: #212431;
+  color: #fff;
+  margin-right: 4px;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#header .profile .social-links a img {
+  filter: brightness(0) invert(1);
+  width: 20px;
+  height: 20px;
+}
+
+#header .profile .social-links a:hover {
+  background: #149ddd;
+  color: #fff;
+  text-decoration: none;
+}
+
+#main {
+  margin-left: 300px;
+}
+
+#main p {
+  text-align: justify;
+  margin-bottom: 0;
+}
+
+@media (max-width: 1199px) {
+  #header {
+    position: relative;
+    transition: all ease-in-out 0.5s;
+    z-index: 9997;
+    transition: all 0.5s;
+    background: #040b14;
+    overflow-y: auto;
+    width: auto;
+    padding: 60px 0;
+  }
+
+  #header .centerhv {
+    display: block;
+    height: auto;
+  }
+
+  #header .profile .social-links a {
+    display: flex;
+  }
+
+  #main {
+    margin-left: 0;
+  }
+}
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+  overflow: hidden;
+}
+
+section .container {
+  padding: 30px;
+}
+
+.section-title h2,
+.section-content::before,
+.section-content::after {
+  font-size: 32px;
+  font-weight: bold;
+  color: #173b6c;
+}
+
+.section-content::before {
+  content: "{";
+}
+
+.section-content::after {
+  content: "}";
+}
+
+/*--------------------------------------------------------------
+# about
+--------------------------------------------------------------*/
+
+#about {
+  background-color: white;
+}
+
+#about p {
+  padding: 0 60px;
+}
+
+@media (max-width: 1199px) {
+  #about p {
+    padding: 0 20px;
+  }
+}
+
+/*--------------------------------------------------------------
+# projects
+--------------------------------------------------------------*/
+
+#app.flex-cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 15px 15px;
+}
+
+#app .card {
+  width: 33%;
+}
+
+#app .card h5 {
+  margin-top: 8px;
+}
+
+@media (max-width: 1199px) {
+  #app .card {
+    width: auto;
+  }
+}
