@@ -26,8 +26,8 @@
             </div>
             <div v-for="project in projects" class="card">
                 <div class="card-body">
-                    <a href="{{ project.html_url }}" class="card-link"><i class="bi bi-github"></i> Repository</a>
-                    <a v-if="project.homepage" href="{{ project.homepage }}" class="card-link"><i class="bi bi-eye"></i> Preview</a>
+                    <a :href="project.html_url" class="card-link"><i class="bi bi-github"></i> Repository</a>
+                    <a v-if="project.homepage" :href="project.homepage" class="card-link"><i class="bi bi-eye"></i> Preview</a>
                     <h5 class="card-title">{{ project.name }}</h5>
                     <p class="card-text">{{ project.description }}</p>
                 </div>
