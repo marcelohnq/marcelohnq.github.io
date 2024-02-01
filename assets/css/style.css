@@ -193,6 +193,27 @@ section .container {
   margin-top: 8px;
 }
 
+#app .repo-stack {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 5px;
+  font-size: small;
+  margin-top: 8px;
+}
+
+#app .repo-stack p {
+  border: 1px solid #149ddd;
+  border-radius: 15px;
+  padding: 3px;
+  line-height: normal;
+  transition: 0.3s;
+}
+
+#app .repo-stack p:hover {
+  background-color: #149ddd;
+  color: white;
+}
+
 @media (max-width: 1199px) {
   #app .card {
     width: auto;
